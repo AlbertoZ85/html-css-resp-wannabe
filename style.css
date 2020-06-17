@@ -74,9 +74,9 @@ img {
 
 /* MEDIA QUERY */
 /* tablet 420px < width < 800px */
-@media screen and (max-width: 799px) and (min-width: 420px) {
+@media screen and (max-width: 799px) {
     .row {
-      width: 80%;
+      width: 100%;
       margin: 50px auto;
     }
 
@@ -86,7 +86,7 @@ img {
 }
 
 /* image shrinking < 600px */
-@media screen and (max-width: 599px) and (min-width: 420px) {
+@media screen and (max-width: 599px) {
     img {
         height: 100px;
     }
@@ -123,5 +123,9 @@ img {
 
     img {
         height: 75px;
+    }
+
+    #why .row img {
+        padding: 15px;
     }
 }
